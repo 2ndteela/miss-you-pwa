@@ -8,5 +8,6 @@ var config = {
     storageBucket: "i-miss-you-154a9.appspot.com",
     messagingSenderId: "821315662587"
   };
+firebase.initializeApp(config)
 
-export default firebase.initializeApp(config);
+export default firebase
